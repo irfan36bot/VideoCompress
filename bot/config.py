@@ -6,22 +6,17 @@ class Config(object):
     # You can keep this default
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # Put MongoDB URL
-    DATABASE_URL = get_config("DATABASE_URL", "")
+    DATABASE_URL = "mongodb+srv://Irfan:786or786@cluster0.2jjhd.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     # get a token from @BotFather
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = "5791746051:AAGtutE1aeaeOO1EmG8guAa9pZvRNxQG4jk"
     # The Telegram API things
-    APP_ID = int(get_config("APP_ID", 12345))
-    API_HASH = get_config("API_HASH", "")
-    LOG_CHANNEL = get_config("LOG_CHANNEL")
-    UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
+    APP_ID = 10956858
+    API_HASH = "cceefd3382b44d4d85be2d83201102b7"
+    LOG_CHANNEL = "-1001755492203"
+    UPDATES_CHANNEL = "DS_Botz"
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
-    AUTH_USERS = set(
-        int(x) for x in get_config(
-            "AUTH_USERS",
-            should_prompt=True
-        ).split()
-    )
+    AUTH_USERS = "1125671241"
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = get_config("DOWNLOAD_LOCATION", "/app/downloads")
     # Telegram maximum file upload size
