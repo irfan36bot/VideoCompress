@@ -12,7 +12,7 @@ class Config(object):
     # The Telegram API things
     APP_ID = 10956858
     API_HASH = "cceefd3382b44d4d85be2d83201102b7"
-    LOG_CHANNEL = "-1001755492203"
+    LOG_CHANNEL = "LogChannelDSBot"
     UPDATES_CHANNEL = "DS_Botz"
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
